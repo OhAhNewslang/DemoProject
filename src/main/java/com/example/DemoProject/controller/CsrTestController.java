@@ -9,7 +9,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @RestController
-public class CsrTestController {
+public class CsrTestController{
     @GetMapping("hello1")
     public String helloWorld(Model model){
         return "OHAH! ProtoType CSR Test HelloWorld ~!";
