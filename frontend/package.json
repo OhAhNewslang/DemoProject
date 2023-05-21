@@ -6,17 +6,19 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "debug": "node --inspect-brk ./node_mudules/next/dist/bin/next"
   },
   "dependencies": {
     "@types/node": "20.1.5",
     "@types/react": "18.2.6",
     "@types/react-dom": "18.2.4",
     "axios": "^1.4.0",
+    "devtools": "^8.10.4",
     "next": "13.4.2",
+    "next.js": "^1.0.3",
     "nextjs": "^0.0.3",
     "promise": "^8.3.0",
-    "next.js": "^1.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "render": "^0.1.4",
